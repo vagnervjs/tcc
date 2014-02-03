@@ -1,0 +1,55 @@
+aluno = {
+    "__v": 0,
+    "_id": "5239c11d8794171259000001",
+    "nome": "Fulano",
+    "curso": [
+        "Curso 01",
+        "Curso 02"
+    ],
+    "turma": [
+        "Turma 01",
+        "Turma 02"
+    ]
+}
+
+curso = {
+    "__v": 0,
+    "_id": "5239c11d8794171259000001",
+    "nome": "Curso 01",
+    "turma": [
+        {
+            "nome": "Turma 01",
+            "disciplina": [
+                {
+                    "nome": "Disciplina 01",
+                    "professor": "Professor 01"
+                },
+
+                {
+                    "nome": "Disciplina 01",
+                    "professor": "Professor 02"
+                }
+            ]
+        }
+    ]
+}
+
+material =  {
+    "_id" : "528e99aa81e284a06b000001",
+    "tipo" : "doc",
+    "data" : "2013-11-21T23:38:02.907Z",
+    "desc" : "Descricao material 02",
+    "disciplina" : ["disc01", "disc02"],
+    "turma" : ["turma01", "turma02"],
+    "id" : "mat02",
+    "titulo" : "Material 02",
+    "comentarios": [
+        {
+            "comentarioId": "cmt01",
+            "comentario" : "Lorem ipsum dolor sit amet.",
+            "data": "2013-11-21 00:00:00",
+            "alunoId": "5239c11d8794171259000001"
+        }
+    ],
+    "__v" : 0
+}

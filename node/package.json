@@ -1,0 +1,43 @@
+{
+  "name": "tcc-api",
+  "version": "0.0.1",
+  "description": "A Node.js API for my TCC at Unesp using restify and mongoose",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vagnervjs/tcc-api"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "restify": "2.6.0",
+    "mongoose": "3.6.19",
+    "nodefly": "~0.1.46",
+    "damage": "0.0.6",
+    "benchmark": "~1.0.0",
+    "supervisor": "~0.5.6"
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "b90f6857cce38840ef25896c0a91c70228e72a78",
+  "bugs": {
+    "url": "https://github.com/vagnervjs/simple-restify-api/issues"
+  },
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "api",
+    "restify"
+  ],
+  "author": "Vagner Santana",
+  "license": "MIT"
+}
